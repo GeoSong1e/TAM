@@ -7,6 +7,8 @@
 
 本模型需要ERA5数据、GGOS数据，共计11.1G，
 
-可在 下载
+可在https://pan.baidu.com/s/1wcNWFnEwKaby21UyFxtj2w 下载
+
+提取码：TAM1 
 
 将数据放入与项目相同的文件夹即可正常运行
