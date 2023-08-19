@@ -1,6 +1,6 @@
 # TAM 大气加权平均温度增强模型
 
-![image](TAM UI.png)
+![image](tam.png)
 
 软件具体计算步骤如下：
 
