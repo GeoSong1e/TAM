@@ -2,6 +2,28 @@
 
 ![image](tam.png)
 
+Software specific calculation steps are as follows:
+
+(1) The user only needs to provide the location information, temperature and date of the target, and find the model parameters and surrounding grid points of the Voronoi subregion according to the target location;
+
+(2)The temperature was substituted into the subregion model to obtain the Tm value estimated by the regression model;
+
+(3) According to the location height and date, the Tm of the height of the surrounding grid node is obtained, and the interpolation is made to the location of the target, the high-precision Tm estimated by the TAM model can be obtained.
+
+This model also requires ERA5 data and GGOS data, a total of 11.1G.
+
+Can be downloaded at https://pan.baidu.com/s/1wcNWFnEwKaby21UyFxtj2w
+
+Extract code: TAM1
+
+Put the data in the same folder as the project (data) and it will work
+
+In the future, the scope of service will continue to expand to support the acquisition of national and even global atmospheric weighted average temperature
+
+Acknowledgements: Thanks to ECMWF Center for ERA-5 data, GGOS Atmosphere for grid data and the University of Wyoming, USA for radiosonde data
+
+---------------------------------------------------------------------------------------------
+
 软件具体计算步骤如下：
 
 ①用户仅需提供目标所在位置信息、温度及日期，根据目标位置查找其所在Voronoi子区域模型参数及四周格网点；
